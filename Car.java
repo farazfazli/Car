@@ -17,77 +17,77 @@ class Car {
     private boolean mPowerState;
     private boolean mPushToStart;
 
-    public Car(String mColor, String mDrivetrain, String mBodyType, String mTrim, String mInterior, String mPackage, int mHorsepower, int topSpeed, int torque, float mCoefficientDrag, int mPsi, boolean mPowerState, boolean mPushToStart, int mSpeed) {
-        this.mColor = mColor;
-        this.mDrivetrain = mDrivetrain;
-        this.mBodyType = mBodyType;
-        this.mTrim = mTrim;
-        this.mInterior = mInterior;
-        this.mPackage = mPackage;
-        this.mHorsepower = mHorsepower;
-        this.mTopSpeed = topSpeed;
-        this.mTorque = torque;
-        this.mCoefficientDrag = mCoefficientDrag;
-        this.mPsi = mPsi;
-        this.mPowerState = mPowerState;
-        this.mPushToStart = mPushToStart;
-        this.mSpeed = mSpeed;
+    public Car(String color, String drivetrain, String bodyType, String trim, String interior, String aPackage, int horsepower, int topSpeed, int torque, float coefficientDrag, int psi, int speed, boolean powerState, boolean pushToStart) {
+        mColor = color;
+        mDrivetrain = drivetrain;
+        mBodyType = bodyType;
+        mTrim = trim;
+        mInterior = interior;
+        mPackage = aPackage;
+        mHorsepower = horsepower;
+        mTopSpeed = topSpeed;
+        mTorque = torque;
+        mCoefficientDrag = coefficientDrag;
+        mPsi = psi;
+        mSpeed = speed;
+        mPowerState = powerState;
+        mPushToStart = pushToStart;
     }
 
-    public String getmColor() {
+    public String getColor() {
         return mColor;
     }
 
-    public void setmColor(String mColor) {
-        this.mColor = mColor;
+    public void setColor(String color) {
+        mColor = color;
     }
 
-    public String getmDrivetrain() {
+    public String getDrivetrain() {
         return mDrivetrain;
     }
 
-    public void setmDrivetrain(String mDrivetrain) {
-        this.mDrivetrain = mDrivetrain;
+    public void setDrivetrain(String drivetrain) {
+        mDrivetrain = drivetrain;
     }
 
-    public String getmBodyType() {
+    public String getBodyType() {
         return mBodyType;
     }
 
-    public void setmBodyType(String mBodyType) {
-        this.mBodyType = mBodyType;
+    public void setBodyType(String bodyType) {
+        mBodyType = bodyType;
     }
 
-    public String getmTrim() {
+    public String getTrim() {
         return mTrim;
     }
 
-    public void setmTrim(String mTrim) {
-        this.mTrim = mTrim;
+    public void setTrim(String trim) {
+        mTrim = trim;
     }
 
-    public String getmInterior() {
+    public String getInterior() {
         return mInterior;
     }
 
-    public void setmInterior(String mInterior) {
-        this.mInterior = mInterior;
+    public void setInterior(String interior) {
+        mInterior = interior;
     }
 
-    public String getmPackage() {
+    public String getPackage() {
         return mPackage;
     }
 
-    public void setmPackage(String mPackage) {
-        this.mPackage = mPackage;
+    public void setPackage(String aPackage) {
+        mPackage = aPackage;
     }
 
-    public int getmHorsepower() {
+    public int getHorsepower() {
         return mHorsepower;
     }
 
-    public void setmHorsepower(int mHorsepower) {
-        this.mHorsepower = mHorsepower;
+    public void setHorsepower(int horsepower) {
+        mHorsepower = horsepower;
     }
 
     public int getTopSpeed() {
@@ -95,7 +95,7 @@ class Car {
     }
 
     public void setTopSpeed(int topSpeed) {
-        this.mTopSpeed = topSpeed;
+        mTopSpeed = topSpeed;
     }
 
     public int getTorque() {
@@ -103,46 +103,46 @@ class Car {
     }
 
     public void setTorque(int torque) {
-        this.mTorque = torque;
+        mTorque = torque;
     }
 
-    public float getmCoefficientDrag() {
+    public float getCoefficientDrag() {
         return mCoefficientDrag;
     }
 
-    public void setmCoefficientDrag(float mCoefficientDrag) {
-        this.mCoefficientDrag = mCoefficientDrag;
+    public void setCoefficientDrag(float coefficientDrag) {
+        mCoefficientDrag = coefficientDrag;
     }
 
-    public int getmPsi() {
+    public int getPsi() {
         return mPsi;
     }
 
-    public void setmPsi(int mPsi) {
-        this.mPsi = mPsi;
+    public void setPsi(int psi) {
+        mPsi = psi;
     }
 
-    public boolean ismPowerState() {
-        return mPowerState;
-    }
-
-    public void setmPowerState(boolean mPowerState) {
-        this.mPowerState = mPowerState;
-    }
-
-    public boolean ismPushToStart() {
-        return mPushToStart;
-    }
-
-    public void setmPushToStart(boolean mPushToStart) {
-        this.mPushToStart = mPushToStart;
-    }
-
-    public int getmSpeed() {
+    public int getSpeed() {
         return mSpeed;
     }
 
-    public void setmSpeed(int mSpeed) {
-        this.mSpeed = mSpeed;
+    public void setSpeed(int speed) {
+        mSpeed = speed;
+    }
+
+    public boolean isPowerState() {
+        return mPowerState;
+    }
+
+    public void setPowerState(boolean powerState) {
+        mPowerState = powerState;
+    }
+
+    public boolean isPushToStart() {
+        return mPushToStart;
+    }
+
+    public void setPushToStart(boolean pushToStart) {
+        mPushToStart = pushToStart;
     }
 }
